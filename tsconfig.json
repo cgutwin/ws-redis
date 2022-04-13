@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "strict": true,
+    "noLib": false,
+    "declaration": true,
+    "inlineSourceMap": true,
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "ES6"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

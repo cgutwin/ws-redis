@@ -1,0 +1,35 @@
+{
+  "name": "@pubsub-ws/ws-server",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "cgutwin <24538491+cgutwin@users.noreply.github.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean-lib": "rimraf lib",
+    "tsc": "tsc",
+    "start": "nodemon -r dotenv/config ",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/redis": "^4.0.11",
+    "@types/ws": "^8.5.3",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@pubsub-ws/ws-event-router": "^1.0.0",
+    "redis": "^4.0.6",
+    "ws": "^8.5.0"
+  }
+}

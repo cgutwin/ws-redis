@@ -1,0 +1,7 @@
+.idea/*
+!.idea/runConfigurations
+
+node_modules/
+*.log
+packages/**/lib
+packages/**/.env
